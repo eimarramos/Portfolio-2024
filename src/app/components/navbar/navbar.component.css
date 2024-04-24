@@ -11,7 +11,6 @@
   z-index: 100;
   width: 100%;
   height: 10vh;
-  background-color: #242327;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,15 +36,19 @@
 
 .nav__links a {
   text-decoration: none; 
-  color: inherit; 
+  color: #A9A5C1; 
+  transition: color 0.3s ease;
+}
+
+.nav__links a:hover {
+  color: white;
 }
 
 .nav__link {
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .nav__link:hover {
-  color: white;
   transform: translateY(-3px);
 }
 

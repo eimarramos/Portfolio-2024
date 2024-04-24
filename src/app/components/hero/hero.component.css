@@ -1,0 +1,110 @@
+.hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 120px;
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.title {
+    font-weight: 900;
+    color: #fff;
+    font-size: 2.5rem; 
+    line-height: 1.53; 
+    margin-top: 0.5rem; 
+}
+
+@media (min-width: 640px) {
+    .title {
+        font-size: 3.75rem; 
+        line-height: 1.33; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 5rem; 
+        line-height: 1.225; 
+    }
+}
+
+@media (max-width: 639px) {
+    .title {
+        font-size: 3.125rem;
+        line-height: 1.6;
+    }
+}
+
+.name-span {
+    font-weight: 900; 
+    color: rgb(145 94 255);
+    font-size: 2.5rem; 
+    line-height: 1.53; 
+    margin-top: 0.5rem; 
+    transform: none;
+}
+
+@media (min-width: 640px) {
+    .name-span {
+        font-size: 3.75rem;
+        line-height: 1.33; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .name-span {
+        font-size: 5rem;
+        line-height: 1.225;
+    }
+}
+
+@media (max-width: 639px) {
+    .name-span {
+        font-size: 3.125rem; 
+        line-height: 1.6; 
+    }
+}
+
+.subtitle {
+    color: #dfd9ff;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 0.5rem;
+}
+
+
+.subtitle br {
+    display: block;
+}
+
+@media (min-width: 640px) {
+    .subtitle {
+        font-size: 1.625rem;
+        line-height: 1.54; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .subtitle {
+        font-size: 1.875rem;
+        line-height: 1.33; 
+    }
+}
+
+@media (max-width: 639px) {
+    .subtitle {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+}

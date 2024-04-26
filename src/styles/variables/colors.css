@@ -1,0 +1,14 @@
+:root {
+  --primary-color: rgb(145 94 255);
+  --secondary-color: #fff;
+  --subtitle-color: rgb(243 243 243 / 1);
+  --text-color: rgb(170 166 195 / 1);
+  --secondary-text-color: rgb(36, 36, 36);
+  --background-color: #120f1e;
+  --gradient-color: linear-gradient(
+    180deg,
+    #2f2a50 0%,
+    #242137 48%,
+    #120f1e 100%
+  );
+}

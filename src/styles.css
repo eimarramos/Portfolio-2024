@@ -1,19 +1,17 @@
+@import url(styles/variables/colors.css);
+@import url(styles/font.css);
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--app-font);
 }
 
 body {
-  background-color: #120f1e;
-  background-image: linear-gradient(
-    180deg,
-    #2f2a50 0%,
-    #242137 48%,
-    #120f1e 100%
-  );
+  background-color: var(--background-color);
+  background-image: var(--gradient-color);
   background-size: 100% 100svh;
   background-repeat: no-repeat;
 }

@@ -17,7 +17,7 @@
 
 .hero__title {
   font-weight: 900;
-  color: #fff;
+  color: var(--secondary-color);
   font-size: 2.5rem;
   line-height: 1.53;
   margin-top: 0.5rem;
@@ -46,7 +46,7 @@
 
 .hero__name {
   font-weight: 900;
-  color: rgb(145 94 255);
+  color: var(--primary-color);
   font-size: 2.5rem;
   line-height: 1.53;
   margin-top: 0.5rem;
@@ -75,7 +75,7 @@
 }
 
 .hero__subtitle {
-  color: rgb(243 243 243 / 1);
+  color: var(--subtitle-color);
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.25;
@@ -105,4 +105,10 @@
 
 .hero__subtitle > br {
   display: block;
+}
+
+.links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5em;
 }

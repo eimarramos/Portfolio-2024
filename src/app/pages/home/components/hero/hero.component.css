@@ -4,36 +4,32 @@
   bottom: 0;
   left: 0;
   top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   max-width: 80rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 1.25rem;
 }
 
 .hero__title {
-  font-weight: 900;
-  color: var(--secondary-color);
-  font-size: 2.5rem;
-  line-height: 1.53;
   margin-top: 0.5rem;
+
+  color: var(--secondary-color);
+
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.225;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 992px) {
   .hero__title {
     font-size: 3.75rem;
     line-height: 1.33;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero__title {
-    font-size: 5rem;
-    line-height: 1.225;
   }
 }
 
@@ -45,29 +41,25 @@
 }
 
 .hero__name {
-  font-weight: 900;
-  color: var(--primary-color);
-  font-size: 2.5rem;
-  line-height: 1.53;
   margin-top: 0.5rem;
+
+  color: var(--primary-color);
+
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.225;
+
   transform: none;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 992px) {
   .hero__name {
     font-size: 3.75rem;
     line-height: 1.33;
   }
 }
 
-@media (min-width: 1024px) {
-  .hero__name {
-    font-size: 5rem;
-    line-height: 1.225;
-  }
-}
-
-@media (max-width: 639px) {
+@media (max-width: 576px) {
   .hero__name {
     font-size: 3.125rem;
     line-height: 1.6;
@@ -75,28 +67,23 @@
 }
 
 .hero__subtitle {
-  color: var(--subtitle-color);
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.25;
   margin-top: 0.5rem;
+
+  color: var(--subtitle-color);
+
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 1.33;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 992px) {
   .hero__subtitle {
     font-size: 1.625rem;
     line-height: 1.54;
   }
 }
 
-@media (min-width: 1024px) {
-  .hero__subtitle {
-    font-size: 1.875rem;
-    line-height: 1.33;
-  }
-}
-
-@media (max-width: 639px) {
+@media (max-width: 576px) {
   .hero__subtitle {
     font-size: 1.25rem;
     line-height: 1.25;
@@ -110,5 +97,6 @@
 .links {
   display: flex;
   flex-flow: row wrap;
+
   gap: 1.5em;
 }

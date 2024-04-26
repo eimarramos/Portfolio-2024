@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 
-.nav{
+.nav {
   display: flex;
   align-items: center;
 }
@@ -30,13 +30,13 @@
   list-style: none;
 }
 
-.links__link>a {
-  text-decoration: none; 
-  color: #A9A5C1; 
+.links__link > a {
+  text-decoration: none;
+  color: #a9a5c1;
   transition: color 0.3s ease;
 }
 
-.links__link>a:hover {
+.links__link > a:hover {
   color: white;
 }
 
@@ -51,7 +51,7 @@
 @media screen and (max-width: 768px) {
   .header {
     height: 15vh;
-    padding: 0 2%; 
+    padding: 0 2%;
   }
 
   .nav {

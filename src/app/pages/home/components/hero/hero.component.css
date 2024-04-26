@@ -16,7 +16,7 @@
     gap: 1.25rem;
 }
 
-.title {
+.hero__title {
     font-weight: 900;
     color: #fff;
     font-size: 2.5rem; 
@@ -25,27 +25,27 @@
 }
 
 @media (min-width: 640px) {
-    .title {
+    .hero__title {
         font-size: 3.75rem; 
         line-height: 1.33; 
     }
 }
 
 @media (min-width: 1024px) {
-    .title {
+    .hero__title {
         font-size: 5rem; 
         line-height: 1.225; 
     }
 }
 
 @media (max-width: 639px) {
-    .title {
+    .hero__title {
         font-size: 3.125rem;
         line-height: 1.6;
     }
 }
 
-.name-span {
+.hero__name {
     font-weight: 900; 
     color: rgb(145 94 255);
     font-size: 2.5rem; 
@@ -55,27 +55,27 @@
 }
 
 @media (min-width: 640px) {
-    .name-span {
+    .hero__name {
         font-size: 3.75rem;
         line-height: 1.33; 
     }
 }
 
 @media (min-width: 1024px) {
-    .name-span {
+    .hero__name {
         font-size: 5rem;
         line-height: 1.225;
     }
 }
 
 @media (max-width: 639px) {
-    .name-span {
+    .hero__name {
         font-size: 3.125rem; 
         line-height: 1.6; 
     }
 }
 
-.subtitle {
+.hero__subtitle{
     color: rgb(243 243 243 / 1);
     font-weight: 500;
     font-size: 1rem;
@@ -83,28 +83,27 @@
     margin-top: 0.5rem;
 }
 
-
-.subtitle br {
-    display: block;
-}
-
 @media (min-width: 640px) {
-    .subtitle {
+    .hero__subtitle {
         font-size: 1.625rem;
         line-height: 1.54; 
     }
 }
 
 @media (min-width: 1024px) {
-    .subtitle {
+    .hero__subtitle {
         font-size: 1.875rem;
         line-height: 1.33; 
     }
 }
 
 @media (max-width: 639px) {
-    .subtitle {
+    .hero__subtitle {
         font-size: 1.25rem;
         line-height: 1.25;
     }
+}
+
+.hero__subtitle>br {
+    display: block;
 }

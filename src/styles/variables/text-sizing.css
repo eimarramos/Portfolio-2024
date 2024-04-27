@@ -1,0 +1,9 @@
+:root {
+  --text-size-small: 1.0625rem;
+  --text-size-small-medium: 1.25rem;
+  --text-size-medium: 1.625rem;
+  --text-size-medium-large: 1.875rem;
+  --text-size-large: 3.125rem;
+  --text-size-xlarge: 3.75rem;
+  --text-size-xxlarge: 5rem;
+}

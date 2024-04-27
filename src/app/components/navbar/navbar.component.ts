@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
 })
-export class NavbarComponent {}
+export class NavbarComponent {
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll() {
+    let element = document.querySelector('.header') as HTMLElement;
+    if (window.pageYOffset > element.clientHeight) {
+      element.classList.add('header--background-color');
+    } else {
+      element.classList.remove('header--background-color');
+    }
+  }
+}

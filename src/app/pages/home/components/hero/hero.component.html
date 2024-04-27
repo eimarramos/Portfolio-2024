@@ -30,4 +30,9 @@
       src="assets/icons/cv.svg"
     ></app-link>
   </div>
+  <div class="bubbles">
+    @for (item of getNumberArray(10); track $index) {
+    <div class="bubbles__bubble"></div>
+    }
+  </div>
 </article>

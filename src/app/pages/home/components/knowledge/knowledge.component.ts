@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../../../../components';
 
 @Component({
   selector: 'app-knowledge',
   standalone: true,
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './knowledge.component.html',
-  styleUrl: './knowledge.component.css'
+  styleUrl: './knowledge.component.css',
 })
-export class KnowledgeComponent {
-
-}
+export class KnowledgeComponent {}

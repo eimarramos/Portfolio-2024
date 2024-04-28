@@ -3,22 +3,29 @@
   <nav class="nav">
     <ul class="links">
       <li class="links__link">
-        <a href="/home#overview">Sobre mí</a>
+        <a href="/home#overview" (click)="toggleNav(); toggleHamburguer()"
+          >Sobre mí</a
+        >
       </li>
       <li class="links__link">
-        <a href="/home#overview">Proyectos</a>
+        <a href="/home#overview" (click)="toggleNav(); toggleHamburguer()"
+          >Proyectos</a
+        >
       </li>
       <li class="links__link">
-        <a href="#">Conocimientos</a>
+        <a href="#" (click)="toggleNav(); toggleHamburguer()">Conocimientos</a>
       </li>
       <li class="links__link">
-        <a href="#">Contacto</a>
+        <a href="#" (click)="toggleNav(); toggleHamburguer()">Contacto</a>
       </li>
     </ul>
   </nav>
-  <button class="hamburger">
-    <span class="hamburger__bar"></span>
-    <span class="hamburger__bar"></span>
-    <span class="hamburger__bar"></span>
-  </button>
+  <label class="hamburger" for="hamburger__checkbox">
+    <input id="hamburger__checkbox" type="checkbox" (change)="toggleNav()" />
+    <span class="toggle">
+      <div class="bar bar--top"></div>
+      <div class="bar bar--middle"></div>
+      <div class="bar bar--bottom"></div>
+    </span>
+  </label>
 </header>

@@ -17,4 +17,17 @@ export class NavbarComponent {
       element.classList.remove('header--background-color');
     }
   }
+
+  toggleNav() {
+    let nav = document.querySelector('nav') as HTMLElement;
+
+    nav.classList.toggle('nav--visible');
+  }
+
+  toggleHamburguer() {
+    let checkbox = document.getElementById(
+      'hamburger__checkbox'
+    ) as HTMLInputElement;
+    checkbox.checked = false;
+  }
 }

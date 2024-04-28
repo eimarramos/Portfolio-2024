@@ -6,4 +6,6 @@
   --text-size-large: 3.125rem;
   --text-size-xlarge: 3.75rem;
   --text-size-xxlarge: 5rem;
+
+  --text-line-height: 30px;
 }

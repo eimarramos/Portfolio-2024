@@ -1,7 +1,7 @@
 .article {
   max-width: 48rem;
 
-  line-height: 30px;
+  line-height: var(--text-line-height);
 }
 
 .article__subtitle {

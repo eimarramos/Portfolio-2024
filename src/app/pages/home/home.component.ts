@@ -1,11 +1,20 @@
 import { Component } from '@angular/core';
-import { HeroComponent, KnowledgeComponent } from './components';
+import {
+  HeroComponent,
+  KnowledgeComponent,
+  TechStackComponent,
+} from './components';
 import { ArticleComponent } from '../../components';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, ArticleComponent, KnowledgeComponent],
+  imports: [
+    HeroComponent,
+    ArticleComponent,
+    KnowledgeComponent,
+    TechStackComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })

@@ -1,5 +1,11 @@
 .section {
-  line-height: var(--text-line-height);
+  margin-bottom: 20em;
+  max-width: 80rem;
+  scroll-margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 
 .section__subtitle {
@@ -30,12 +36,9 @@
   top: -20px;
   bottom: -20px;
   left: 50%;
-
-  width: 0.3rem;
-
-  background-color: var(--secondary-color);
-
   transform: translateX(-50%);
+  width: 0.3rem;
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 992px) {

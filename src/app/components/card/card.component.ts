@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Card } from '../../shared';
 
 @Component({
   selector: 'app-card',
@@ -8,7 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './card.component.css',
 })
 export class CardComponent {
-  @Input({ required: true }) title?: string;
-  @Input({ required: true }) subtitle?: string;
-  @Input({ required: true }) content?: string;
+  @Input() card?: Card;
 }

@@ -5,7 +5,6 @@ export type Card = {
   subtitle: string;
   content: string;
 };
-
 @Component({
   selector: 'app-card',
   standalone: true,

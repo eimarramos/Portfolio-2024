@@ -9,26 +9,9 @@
     Desarrollador de Software<br />Frontend | Backend
   </p>
   <div class="links">
-    <app-link
-      text="GitHub"
-      url="https://github.com/eimarramos"
-      src="assets/icons/github.svg"
-    ></app-link>
-    <app-link
-      text="LinkedIn"
-      url="https://linkedin.com/in/eimar-ramos-sacari-78524a29a"
-      src="assets/icons/linkedin.svg"
-    ></app-link>
-    <app-link
-      text="Email"
-      url="mailto:eimar.ramossacari@gmail.com"
-      src="assets/icons/email.svg"
-    ></app-link>
-    <app-link
-      text="CV"
-      url="https://drive.google.com/file/d/1hwEQi53gJC2bZjyzhyClMSA1jCYcbuP9/view?usp=sharing"
-      src="assets/icons/cv.svg"
-    ></app-link>
+    @for (link of links; track $index) {
+    <app-link [link]="link"></app-link>
+    }
   </div>
   <div class="bubbles">
     @for (item of getNumberArray(10); track $index) {

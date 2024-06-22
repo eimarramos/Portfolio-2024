@@ -1,6 +1,11 @@
 import { NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
+export type Link = {
+  name: string;
+  url: string;
+  src: string;
+};
 @Component({
   selector: 'app-link',
   standalone: true,
@@ -9,7 +14,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './link.component.css',
 })
 export class LinkComponent {
-  @Input({ required: true }) text?: string;
-  @Input({ required: true }) url?: string;
-  @Input({ required: true }) src?: string;
+  @Input() link?: Link;
 }

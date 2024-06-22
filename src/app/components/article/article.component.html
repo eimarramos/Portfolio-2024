@@ -1,7 +1,9 @@
+@if (article) {
 <article class="article">
   <header>
-    <p class="article__subtitle">{{ subtitle }}</p>
-    <h1 class="article__title">{{ title }}</h1>
+    <p class="article__subtitle">{{ article.title }}</p>
+    <h1 class="article__title">{{ article.subtitle }}</h1>
   </header>
-  <p class="article__content">{{ content }}</p>
+  <p class="article__content">{{ article.content }}</p>
 </article>
+}

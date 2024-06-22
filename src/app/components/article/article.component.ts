@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Article } from '../../shared';
 
 @Component({
   selector: 'app-article',
@@ -8,7 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './article.component.css',
 })
 export class ArticleComponent {
-  @Input({ required: true }) subtitle?: string;
-  @Input({ required: true }) title?: string;
-  @Input({ required: true }) content?: string;
+  @Input() article?: Article;
 }

@@ -8,7 +8,7 @@
   padding: 0.5em;
   gap: 0.5em;
 
-  color: var(--secondary-color);
+  color: var(--color-brand-0);
   border: 1px solid var(--primary-color);
   background-image: var(--primary-gradient-color);
   border-radius: 0.5rem;

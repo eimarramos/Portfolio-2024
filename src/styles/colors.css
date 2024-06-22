@@ -12,4 +12,17 @@
     #242137 50%,
     #120f1e 100%
   );
+
+  --color-accent: #7d3bec;
+  --color-brand-0: #ffffff;
+  --color-brand-05: #f5f4f5;
+  --color-brand-1: #eaeaeb;
+  --color-brand-2: #d6d4d6;
+  --color-brand-3: #c1bfc2;
+  --color-brand-4: #ada9ad;
+  --color-brand-5: #989499;
+  --color-brand-6: #5c5a5d;
+  --color-brand-7: #3f3d3f;
+  --color-brand-8: #212021;
+  --color-brand-9: #030303;
 }

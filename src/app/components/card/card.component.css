@@ -13,7 +13,7 @@
 
 .article__title {
   font-weight: 900;
-  color: var(--secondary-color);
+  color: var(--color-brand-0);
   font-size: var(--text-size-medium-large);
 }
 

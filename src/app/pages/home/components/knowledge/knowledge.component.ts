@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { CardComponent } from '../../../../components';
-import { SectionComponent } from '../../../../components/section/section.component';
-import { Card, Section } from '../../../../shared';
+import { Card, CardComponent } from '../../../../components';
+import {
+  Section,
+  SectionComponent,
+} from '../../../../components/section/section.component';
 
 @Component({
   selector: 'app-knowledge',

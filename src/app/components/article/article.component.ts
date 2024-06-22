@@ -1,6 +1,10 @@
 import { Component, Input } from '@angular/core';
-import { Article } from '../../shared';
 
+export type Article = {
+  title: string;
+  subtitle: string;
+  content: string;
+};
 @Component({
   selector: 'app-article',
   standalone: true,

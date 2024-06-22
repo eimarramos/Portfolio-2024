@@ -1,5 +1,8 @@
 <app-section [section]="knowledge">
-  @for (card of cards; track $index) {
-  <app-card [card]="card"></app-card>
-  }
+  <div class="content">
+    <span class="content__separator"></span>
+    @for (card of cards; track $index) {
+    <app-card [card]="card"></app-card>
+    }
+  </div>
 </app-section>

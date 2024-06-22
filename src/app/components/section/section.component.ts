@@ -1,6 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { Section } from '../../shared';
 
+export type Section = {
+  title: string;
+  subtitle: string;
+};
 @Component({
   selector: 'app-section',
   standalone: true,

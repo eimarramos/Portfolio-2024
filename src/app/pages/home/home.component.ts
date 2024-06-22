@@ -4,8 +4,7 @@ import {
   KnowledgeComponent,
   TechStackComponent,
 } from './components';
-import { ArticleComponent } from '../../components';
-import { Article } from '../../shared';
+import { Article, ArticleComponent } from '../../components';
 
 @Component({
   selector: 'app-home',
@@ -21,8 +20,8 @@ import { Article } from '../../shared';
 })
 export class HomeComponent {
   aboutMe: Article = {
-    title: 'Sobre mí',
-    subtitle: 'INTRODUCCIÓN',
+    title: 'SOBRE MÍ',
+    subtitle: 'Introducción',
     content: `Soy un apasionado de la programación. Estoy buscando una oportunidad
               para aplicar mis habilidades en un entorno colaborativo, donde pueda
               contribuir al desarrollo de aplicaciones versátiles y eficientes. Soy proactivo,

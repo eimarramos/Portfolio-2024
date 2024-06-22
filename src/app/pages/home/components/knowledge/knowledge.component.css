@@ -1,0 +1,27 @@
+.content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+
+  grid-auto-rows: fit-content;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+
+  grid-gap: 2em;
+}
+
+.content__separator {
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.3rem;
+  background-color: var(--color-brand-0);
+}
+
+@media (max-width: 992px) {
+  .content__separator {
+    left: 100%;
+  }
+}

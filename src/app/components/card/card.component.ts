@@ -1,5 +1,10 @@
 import { Component, Input } from '@angular/core';
-import { Card } from '../../shared';
+
+export type Card = {
+  title: string;
+  subtitle: string;
+  content: string;
+};
 
 @Component({
   selector: 'app-card',

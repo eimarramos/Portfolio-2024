@@ -1,6 +1,12 @@
+@if(section){
 <section class="section">
   <header class="section__header">
-    <p class="section__subtitle">ÁREAS DONDE TENGO EXPERIENCIA</p>
-    <h1 class="section__title">Conocimientos</h1>
+    <p class="section__subtitle">{{ section.title }}</p>
+    <h1 class="section__title">{{ section.subtitle }}</h1>
   </header>
+  <div class="body">
+    <span class="body__separator"></span>
+    <ng-content />
+  </div>
 </section>
+}

@@ -8,13 +8,47 @@ html {
 
 html,
 body {
+  display: flex;
+  flex-flow: column;
+
+  min-height: 100svh;
   height: 100%;
+  width: 100%;
   font-family: var(--app-font);
 }
 
 body {
   background-color: var(--background-color);
   background-image: var(--primary-gradient-color);
-  background-size: 100% 100svh;
+  background-size: 100%;
   background-repeat: no-repeat;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: var(--font-weight);
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+::after,
+::before {
+  font-family: var(--desktop-font);
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }

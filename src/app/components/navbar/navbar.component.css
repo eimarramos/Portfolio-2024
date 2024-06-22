@@ -34,14 +34,11 @@
   gap: 1.5em;
 
   font-size: var(--text-size-small-medium);
-  list-style: none;
 }
 
 .links__link > a {
   color: var(--text-color);
   -webkit-tap-highlight-color: transparent;
-
-  text-decoration: none;
 
   transition: color 0.3s ease;
 }

@@ -1,3 +1,34 @@
 :root {
   --app-font: "Poppins", sans-serif;
+
+  --text-size-small: 1.0625rem;
+  --text-size-small-medium: 1.25rem;
+  --text-size-medium: 1.625rem;
+  --text-size-medium-large: 1.875rem;
+  --text-size-large: 3.125rem;
+  --text-size-xlarge: 3.75rem;
+  --text-size-xxlarge: 5rem;
+
+  --text-line-height: 30px;
+
+  /*Default font-weight*/
+  --font-weight: 400;
+
+  /*Text sizing*/
+
+  /*MOBILE*/
+  --mobile-text-size-display: 1.5rem; /*24px*/
+  --mobile-text-size-headline: 1.25rem; /*20px*/
+  --mobile-text-size-subheadline: 1rem; /*16px*/
+  --mobile-text-size-link: 0.875rem; /*14px*/
+  --mobile-text-size-body: 0.875rem; /*14px*/
+  --mobile-text-size-caption: 0.75rem; /*14px*/
+
+  /*DESKTOP*/
+  --desktop-text-size-display: 1.75rem; /*28px*/
+  --desktop-text-size-headline: 1.5rem; /*24px*/
+  --desktop-text-size-subheadline: 1.125rem; /*18px*/
+  --desktop-text-size-link: 1rem; /*16px*/
+  --desktop-text-size-body: 1rem; /*16px*/
+  --desktop-text-size-caption: 0.75rem; /*14px*/
 }

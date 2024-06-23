@@ -2,21 +2,22 @@ import { Component } from '@angular/core';
 import {
   HeroComponent,
   KnowledgeComponent,
+  ProjectsComponent,
   TechStackComponent,
 } from './components';
 import { Article, ArticleComponent } from '../../components';
-
 @Component({
   selector: 'app-home',
   standalone: true,
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css',
   imports: [
     HeroComponent,
     ArticleComponent,
     KnowledgeComponent,
     TechStackComponent,
+    ProjectsComponent,
   ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
 })
 export class HomeComponent {
   aboutMe: Article = {

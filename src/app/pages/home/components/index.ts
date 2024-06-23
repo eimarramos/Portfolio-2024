@@ -1,3 +1,4 @@
-export * from './hero';
-export * from './knowledge';
-export * from './tech-stack';
+export * from './hero/hero.component';
+export * from './knowledge/knowledge.component';
+export * from './projects/projects.component';
+export * from './tech-stack/tech-stack.component';

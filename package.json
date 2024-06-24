@@ -1,7 +1,6 @@
 {
   "name": "portfolio-2024",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,6 +9,7 @@
     "test": "ng test",
     "build-and-install": "npm run build && npm install -g @angular/cli"
   },
+  "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.4",
     "@angular/common": "^18.0.4",
@@ -36,8 +36,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

@@ -1,6 +1,5 @@
 .project {
   position: relative;
-  height: 100%;
   width: 100%;
   display: flex;
   gap: var(--layout-size-desktop-gap);
@@ -11,7 +10,7 @@
 
 .slider {
   aspect-ratio: 9/20;
-  width: 20rem;
+  height: 48rem;
   position: relative;
   display: flex;
   align-content: center;

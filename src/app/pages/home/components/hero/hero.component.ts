@@ -15,21 +15,25 @@ export class HeroComponent {
       name: 'GitHub',
       url: 'https://github.com/eimarramos',
       src: 'assets/icons/github.svg',
+      alt: 'GitHub',
     },
     {
       name: 'LinkedIn',
       url: 'https://linkedin.com/in/eimar-ramos-sacari-78524a29a',
       src: 'assets/icons/linkedin.svg',
+      alt: 'LinkedIn',
     },
     {
       name: 'Email',
       url: 'mailto:eimar.ramossacari@gmail.com',
       src: 'assets/icons/email.svg',
+      alt: 'Email',
     },
     {
       name: 'CV',
       url: 'https://drive.google.com/file/d/1hwEQi53gJC2bZjyzhyClMSA1jCYcbuP9/view?usp=sharing',
       src: 'assets/icons/cv.svg',
+      alt: 'CV',
     },
   ];
 

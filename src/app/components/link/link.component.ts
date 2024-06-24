@@ -5,6 +5,7 @@ export type Link = {
   name: string;
   url: string;
   src: string;
+  alt: string;
 };
 @Component({
   selector: 'app-link',

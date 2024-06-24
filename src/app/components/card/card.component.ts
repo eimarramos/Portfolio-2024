@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 export type Card = {
   title: string;
   subtitle: string;
-  content: string;
+  content?: string;
 };
 @Component({
   selector: 'app-card',

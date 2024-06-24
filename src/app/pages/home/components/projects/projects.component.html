@@ -1,1 +1,74 @@
-<app-section [section]="projects"></app-section>
+<app-section [section]="projects">
+  <article class="project">
+    <div class="slider">
+      <img
+        class="slider__image"
+        src="assets/images/PeritajesWeb1.png"
+        alt="Web project image"
+      />
+
+      <img
+        class="slider__image"
+        src="assets/images/PeritajesWeb2.png"
+        alt="Web project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/PeritajesWeb3.png"
+        alt="Web project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/PeritajesWeb4.png"
+        alt="Web project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/ActaPeritaje.png"
+        alt="Web project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/AppPeritajes1.png"
+        alt="App project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/AppPeritajes2.png"
+        alt="App project image"
+      />
+      <img
+        class="slider__image"
+        src="assets/images/AppPeritajes3.png"
+        alt="App project image"
+      />
+    </div>
+    <app-card class="card" [card]="project1">
+      <p>
+        En el proyecto para Lodisna, desarrollé una solución integral que
+        incluye una aplicación móvil, una plataforma web y un backend.
+        Utilizando Xamarin, Angular y ASP.NET Core, logramos crear una
+        herramienta eficiente y funcional para gestionar peritajes y generar
+        actas para los conductores.
+      </p>
+      <br />
+      <p>
+        Utilicé Xamarin para desarrollar una aplicación móvil que permite a los
+        usuarios capturar fotos de peritajes y añadir notas adicionales. La app
+        facilita la documentación visual de los peritajes..
+      </p>
+      <br />
+      <p>
+        Para la plataforma web, implementé una solución con Angular que gestiona
+        los peritajes capturados. Los administradores pueden visualizar, editar
+        y gestionar peritajes y notas a través de una interfaz.
+      </p>
+      <br />
+      <p>
+        El backend, basado en ASP.NET Core, asegura la integridad y seguridad de
+        los datos, permitiendo una comunicación fluida entre la aplicación móvil
+        y la web.
+      </p>
+    </app-card>
+  </article>
+</app-section>

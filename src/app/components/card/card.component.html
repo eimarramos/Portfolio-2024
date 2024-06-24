@@ -3,6 +3,11 @@
   <header>
     <h1 class="article__title">{{ card.title }}</h1>
   </header>
+  @if (card.content) {
   <p class="article__content">{{ card.content }}</p>
+  }
+  <div class="article__content">
+    <ng-content></ng-content>
+  </div>
 </article>
 }

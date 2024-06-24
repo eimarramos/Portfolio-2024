@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Section } from '../../../../components';
+import { Card, CardComponent, Section } from '../../../../components';
 import { SectionComponent } from '../../../../components/section/section.component';
 
 @Component({
@@ -7,11 +7,16 @@ import { SectionComponent } from '../../../../components/section/section.compone
   standalone: true,
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css',
-  imports: [SectionComponent],
+  imports: [SectionComponent, CardComponent],
 })
 export class ProjectsComponent {
   projects: Section = {
     title: 'PROYECTOS',
     subtitle: 'Proyectos realizados',
+  };
+
+  project1: Card = {
+    title: 'Peritajes Web / App',
+    subtitle: 'Desarrollo de una aplicación web',
   };
 }

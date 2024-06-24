@@ -31,7 +31,7 @@ export class HeroComponent {
     },
     {
       name: 'CV',
-      url: 'https://drive.google.com/file/d/1hHc9MpOOwl2NuIwxPTzE1iXNyS2lIQSF/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1Lb3heNrEVO-iSSYZkbouxu9cdM3AOius/view?usp=sharing',
       src: 'assets/icons/cv.svg',
       alt: 'CV',
     },

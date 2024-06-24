@@ -44,4 +44,9 @@
   .article__title {
     font-size: var(--text-size-medium-large);
   }
+
+  .icons__icon {
+    transform: scale(0.8);
+    width: 5rem;
+  }
 }

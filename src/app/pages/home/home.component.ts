@@ -23,11 +23,8 @@ export class HomeComponent {
   aboutMe: Article = {
     title: 'SOBRE MÍ',
     subtitle: 'Introducción',
-    content: `Soy un apasionado de la programación. Estoy buscando una oportunidad
-              para aplicar mis habilidades en un entorno colaborativo, donde pueda
-              contribuir al desarrollo de aplicaciones versátiles y eficientes. Soy proactivo,
-              aprendo rápidamente y tengo un fuerte compromiso con el trabajo en
-              equipo. Estoy ansioso por formar parte de un equipo dinámico y contribuir al
-              éxito de proyectos innovadores en el campo del desarrollo de software.`,
+    content: `Me llamo Eimar y mi interés por el desarrollo de software y la tecnología en general siempre ha
+              estado presente, pero hace 4 años tomé la decisión de dedicarme completamente a ello. Al principio, no 
+              estaba muy convencido, pero desde entonces he estado disfrutando aprendiendo y estudiando constantemente.`,
   };
 }

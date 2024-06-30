@@ -9,7 +9,7 @@
 }
 
 .section__subtitle {
-  color: var(--text-color);
+  color: var(--text-200);
   font-size: var(--text-size-small-medium);
 }
 

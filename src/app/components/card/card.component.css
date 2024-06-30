@@ -4,13 +4,13 @@
 
   padding: 1em;
   border-radius: 0.5rem;
-  background-color: var(--light-background-color);
+  background-color: var(--bg-200);
 
   line-height: var(--text-line-height);
 }
 
 .article__subtitle {
-  color: var(--text-color);
+  color: var(--text-200);
   font-size: var(--text-size-small-medium);
 }
 
@@ -23,7 +23,7 @@
 
 .article__content {
   text-wrap: pretty;
-  color: var(--text-color);
+  color: var(--text-100);
   font-size: var(--text-size-small-medium);
 }
 

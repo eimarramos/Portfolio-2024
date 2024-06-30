@@ -11,7 +11,7 @@
   padding: 0 10%;
   box-sizing: border-box;
 
-  color: var(--color-brand-0);
+  color: var(--text-100);
 
   z-index: 100;
   transition: background-color 0.3s ease;
@@ -37,7 +37,7 @@
 }
 
 .links__link > a {
-  color: var(--text-color);
+  color: var(--text-100);
   -webkit-tap-highlight-color: transparent;
 
   transition: color 0.3s ease;
@@ -56,7 +56,7 @@
 }
 
 .header--background-color {
-  background-color: var(--background-color);
+  background-color: var(--bg-100);
 }
 
 .hamburger {
@@ -162,13 +162,11 @@
     height: fit-content;
     padding: 1em;
 
-    border: solid 1px var(--primary-color);
+    border: solid 1px var(--color-brand-0);
     border-radius: 1rem;
-    background-color: var(--light-background-color);
+    background-color: var(--bg-100);
     opacity: 0;
     visibility: hidden;
-
-    transition: visibility 0s linear 150ms, opacity 150ms;
   }
 
   .links {

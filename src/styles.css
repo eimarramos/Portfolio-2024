@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--bg-100);
   background-image: var(--primary-gradient-color);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -58,12 +58,12 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--light-background-color);
+  background: var(--bg-200);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(145, 94, 255);
+  background-color: var(--primary-100);
   border-radius: 10px;
   border: 3px solid transparent;
   background-clip: content-box;

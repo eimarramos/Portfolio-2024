@@ -1,7 +1,7 @@
 .section {
   margin-bottom: 20em;
   max-width: 80rem;
-  scroll-margin-top: 6em;
+  scroll-margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
   padding-right: 1.5em;
@@ -10,6 +10,6 @@
 
 @media (max-width: 992px) {
   .section {
-    scroll-margin-top: 8em;
+    scroll-margin-top: 8.5rem;
   }
 }

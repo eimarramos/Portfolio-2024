@@ -1,19 +1,11 @@
 :root {
-  --primary-color: rgb(145 94 255);
-  --secondary-color: #fff;
-  --subtitle-color: rgb(243 243 243 / 1);
-  --text-color: rgb(170 166 195 / 1);
-  --secondary-text-color: rgb(36, 36, 36);
-  --background-color: #120f1e;
-  --light-background-color: #241e3b;
   --primary-gradient-color: linear-gradient(
     180deg,
-    #36305c 0%,
-    #242137 50%,
-    #120f1e 100%
+    #49576c 0%,
+    #353f4f 50%,
+    #222831 100%
   );
 
-  --color-accent: #7d3bec;
   --color-brand-0: #ffffff;
   --color-brand-05: #f5f4f5;
   --color-brand-1: #eaeaeb;
@@ -25,4 +17,15 @@
   --color-brand-7: #3f3d3f;
   --color-brand-8: #212021;
   --color-brand-9: #030303;
+
+  --primary-100: #ffd369;
+  --primary-200: #eeeeee;
+  --primary-300: #fdf6fd;
+  --accent-100: #cfdbd5;
+  --accent-200: #e8eddf;
+  --text-100: #eeeeee;
+  --text-200: #fdebed;
+  --bg-100: #222831;
+  --bg-200: #393e46;
+  --bg-300: #292524;
 }

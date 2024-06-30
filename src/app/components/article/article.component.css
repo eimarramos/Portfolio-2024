@@ -5,7 +5,7 @@
 }
 
 .article__subtitle {
-  color: var(--text-color);
+  color: var(--text-200);
   font-size: var(--text-size-small-medium);
 }
 
@@ -17,7 +17,7 @@
 
 .article__content {
   text-wrap: pretty;
-  color: var(--text-color);
+  color: var(--text-100);
   font-size: var(--text-size-small-medium);
 }
 

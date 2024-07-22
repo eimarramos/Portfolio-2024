@@ -24,7 +24,6 @@ export class HomeComponent {
     title: 'SOBRE MÍ',
     subtitle: 'Introducción',
     content: `Me llamo Eimar y mi interés por el desarrollo de software y la tecnología en general siempre ha
-              estado presente, pero hace 4 años tomé la decisión de dedicarme completamente a ello. Al principio, no 
-              estaba muy convencido, pero desde entonces he estado disfrutando aprendiendo y estudiando constantemente.`,
+              estado presente, pero hace 4 años tomé la decisión de dedicarme completamente a ello. Desde entonces he estado disfrutando aprendiendo y estudiando constantemente.`,
   };
 }

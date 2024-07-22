@@ -1,7 +1,7 @@
 .section {
   margin-bottom: 20em;
   max-width: 80rem;
-  scroll-margin-top: 5em;
+  scroll-margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
   padding-right: 1.5em;
@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 992px) {
+  .section {
+    scroll-margin-top: 8.5rem;
+  }
+
   .section__subtitle {
     font-size: var(--text-size-small);
   }

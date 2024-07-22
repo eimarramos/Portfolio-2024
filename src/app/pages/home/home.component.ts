@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {
+  ExperienceComponent,
   HeroComponent,
   KnowledgeComponent,
   ProjectsComponent,
   TechStackComponent,
 } from './components';
 import { Article, ArticleComponent } from '../../components';
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -17,6 +19,7 @@ import { Article, ArticleComponent } from '../../components';
     KnowledgeComponent,
     TechStackComponent,
     ProjectsComponent,
+    ExperienceComponent
   ],
 })
 export class HomeComponent {

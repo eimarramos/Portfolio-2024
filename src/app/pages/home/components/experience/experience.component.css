@@ -1,5 +1,6 @@
 .content {
   display: grid;
+  position: relative;
   grid-template-columns: 0.5fr auto 1.4fr;
   grid-gap: 2em;
 }
@@ -34,11 +35,21 @@
 }
 
 @media (max-width: 992px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
   .nav {
     font-size: var(--text-size-small);
   }
 
   .info {
     font-size: var(--text-size-small);
+  }
+
+  .separator {
+    position: absolute;
+    left: 100%;
+    transform: translateX(200%);
   }
 }

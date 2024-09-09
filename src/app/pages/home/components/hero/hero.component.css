@@ -23,7 +23,7 @@
   border-right: 3px solid var(--primary-100);
 
   font-weight: 900;
-  font-size: var(--text-size-xxlarge);
+  font-size: var(--text-size-xlarge);
   line-height: 1.225;
 
   overflow: hidden;
@@ -33,6 +33,9 @@
 @keyframes typing {
   from {
     width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
 
@@ -48,7 +51,7 @@
   color: var(--primary-100);
 
   font-weight: 900;
-  font-size: var(--text-size-xxlarge);
+  font-size: var(--text-size-xlarge);
   line-height: 1.225;
 
   transform: none;
@@ -77,34 +80,34 @@
 
 @media (max-width: 992px) {
   .hero__title {
-    font-size: var(--text-size-xlarge);
+    font-size: var(--text-size-medium);
     line-height: 1.33;
   }
 
   .hero__name {
-    font-size: var(--text-size-xlarge);
+    font-size: var(--text-size-medium);
     line-height: 1.33;
   }
 
   .hero__subtitle {
-    font-size: var(--text-size-medium);
+    font-size: var(--text-size-small);
     line-height: 1.54;
   }
 }
 
 @media (max-width: 639px) {
   .hero__title {
-    font-size: var(--text-size-large);
+    font-size: var(--text-size-medium);
     line-height: 1.6;
   }
 
   .hero__name {
-    font-size: var(--text-size-large);
+    font-size: var(--text-size-medium);
     line-height: 1.6;
   }
 
   .hero__subtitle {
-    font-size: var(--text-size-small-medium);
+    font-size: var(--text-size-small);
     line-height: 1.25;
   }
 }

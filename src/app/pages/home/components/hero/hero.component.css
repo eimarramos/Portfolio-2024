@@ -27,7 +27,7 @@
   line-height: 1.225;
 
   overflow: hidden;
-  animation: typing 2s steps(35), blink-caret 1s step-end infinite;
+  animation: typing 2s steps(35), transparent 0.5s step-end infinite alternate;
 }
 
 @keyframes typing {
@@ -39,13 +39,9 @@
   }
 }
 
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
+@keyframes transparent {
   50% {
-    border-color: var(--primary-100);
+    border-color: transparent;
   }
 }
 

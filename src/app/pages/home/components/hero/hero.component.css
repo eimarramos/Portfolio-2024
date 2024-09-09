@@ -42,7 +42,7 @@
   line-height: 1.225;
 
   overflow: hidden;
-  animation: typing 2s steps(35), blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(35), 0.5s blinking step-end infinite alternate;
 }
 
 .hero__name {

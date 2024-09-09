@@ -13,6 +13,21 @@
   gap: 1.25rem;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .hero__title {
   margin-top: 0.5rem;
 
@@ -28,21 +43,6 @@
 
   overflow: hidden;
   animation: typing 2s steps(35), blink 0.5s step-end infinite alternate;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
 }
 
 .hero__name {

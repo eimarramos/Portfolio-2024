@@ -23,7 +23,7 @@
   border-right: 3px solid var(--primary-100);
 
   font-weight: 900;
-  font-size: var(--text-size-xlarge);
+  font-size: var(--text-size-xxlarge);
   line-height: 1.225;
 
   overflow: hidden;
@@ -51,7 +51,7 @@
   color: var(--primary-100);
 
   font-weight: 900;
-  font-size: var(--text-size-xlarge);
+  font-size: var(--text-size-xxlarge);
   line-height: 1.225;
 
   transform: none;
@@ -80,12 +80,12 @@
 
 @media (max-width: 992px) {
   .hero__title {
-    font-size: var(--text-size-medium);
+    font-size: var(--text-size-large);
     line-height: 1.33;
   }
 
   .hero__name {
-    font-size: var(--text-size-medium);
+    font-size: var(--text-size-large);
     line-height: 1.33;
   }
 
@@ -97,12 +97,12 @@
 
 @media (max-width: 639px) {
   .hero__title {
-    font-size: var(--text-size-medium);
+    font-size: 100%;
     line-height: 1.6;
   }
 
   .hero__name {
-    font-size: var(--text-size-medium);
+    font-size: 100%;
     line-height: 1.6;
   }
 

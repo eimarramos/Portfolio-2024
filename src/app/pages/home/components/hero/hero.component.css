@@ -97,17 +97,17 @@
 
 @media (max-width: 639px) {
   .hero__title {
-    font-size: 100%;
+    font-size: var(--text-size-medium);
     line-height: 1.6;
   }
 
   .hero__name {
-    font-size: 100%;
+    font-size: var(--text-size-medium);
     line-height: 1.6;
   }
 
   .hero__subtitle {
-    font-size: var(--text-size-small);
+    font-size: var(--text-size-medium);
     line-height: 1.25;
   }
 }

@@ -107,7 +107,7 @@
   }
 
   .hero__subtitle {
-    font-size: var(--text-size-medium);
+    font-size: var(--text-size-small);
     line-height: 1.25;
   }
 }

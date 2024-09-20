@@ -15,6 +15,53 @@
   font-size: var(--text-size-large);
 }
 
+.tooltip-text {
+  position: absolute;
+  top: -3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 0.6em;
+
+  color: white;
+  background-color: #3d4b56;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+
+  font-weight: 700;
+  white-space: nowrap;
+
+  z-index: 2;
+  transition: opacity 0.2s linear;
+}
+
+.tooltip-text::before {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%) rotate(45deg);
+
+  width: 10px;
+  height: 10px;
+
+  background-color: #3d4b56;
+
+  content: "";
+  z-index: 1;
+}
+
+.icon_container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon_container {
+  position: relative;
+
+  margin: 1.1rem 1rem;
+}
+
 .icons {
   display: flex;
   justify-content: center;
@@ -24,15 +71,20 @@
 }
 
 .icons__icon {
-  width: 7rem;
-  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 80px;
+
   background-repeat: no-repeat;
   background-position: center;
 
   transition: transform 0.2s ease;
 }
 
-.icons__icon:hover {
+.icon_container:hover .icons__icon {
   transform: scale(1.2);
 }
 

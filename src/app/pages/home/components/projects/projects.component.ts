@@ -19,10 +19,11 @@ export class ProjectsComponent {
 
   projects: Project[] = [
     {
-      picture: './assets/images/PeritajesDesktop.png',
-      title: 'Angular',
-      summary: 'Angular es un framework de desarrollo de aplicaciones web',
-      technologies: ['Angular', 'Typescript', 'Tailwind'],
+      picture: './assets/images/InicioPeritajes.png',
+      title: 'Facturas de peritajes',
+      summary:
+        'Desarrollé una solución para Lodisna con una app móvil en Xamarin, una web en Angular y un backend en ASP.NET Core para gestionar peritajes.',
+      technologies: ['Angular', 'Typescript', 'C#', 'Xamarin', 'ASP.NET Core'],
       images: [],
       description: 'Angular es un framework de desarrollo de aplicaciones web',
     },

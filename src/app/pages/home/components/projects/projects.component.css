@@ -28,13 +28,25 @@
   scroll-snap-align: center;
 }
 
-.card {
-  width: 40rem;
+.projects_container {
+  position: relative;
   height: 100%;
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 2em;
 }
 
 @media (max-width: 992px) {
-  .card {
-    width: 100%;
+  .projects_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 639px) {
+  .projects_container {
+    grid-template-columns: 1fr;
   }
 }

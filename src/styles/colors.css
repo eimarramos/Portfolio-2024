@@ -6,6 +6,20 @@
     #222831 100%
   );
 
+  --light-gradient-color: linear-gradient(
+    0deg,
+    #e4bb5d 18%,
+    #f5c964 58%,
+    #ffd369 96%
+  );
+
+  --black-gradient-color: linear-gradient(
+    0deg,
+    #101010 18%,
+    #0d0d0d 58%,
+    #1d1d1d 96%
+  );
+
   --color-brand-0: #ffffff;
   --color-brand-05: #f5f4f5;
   --color-brand-1: #eaeaeb;

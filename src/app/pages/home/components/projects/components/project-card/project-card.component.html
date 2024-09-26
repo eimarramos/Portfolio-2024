@@ -1,0 +1,20 @@
+@if (project){
+<article class="article">
+  <img
+    class="article__picture"
+    [src]="project.picture"
+    alt="Imagen del proyecto"
+    loading="lazy"
+  />
+  <h3 class="article__title">{{ project.title }}</h3>
+  <p class="article__content">{{ project.summary }}</p>
+  <div class="article__chips">
+    @for (technology of project.technologies; track $index) {
+    <div class="article__chip">
+      <p class="chip__text">{{ technology }}</p>
+    </div>
+    }
+  </div>
+  <button class="article__button">Mostrar detalles</button>
+</article>
+}

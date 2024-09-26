@@ -33,7 +33,7 @@
   }
 
   .article__title {
-    font-size: var(--text-size-medium-large);
+    font-size: var(--text-size-medium);
   }
 
   .article__content {

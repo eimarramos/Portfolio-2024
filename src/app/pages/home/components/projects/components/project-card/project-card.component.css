@@ -100,6 +100,7 @@
 
 .article__button {
   width: fit-content;
+  height: fit-content;
   border-radius: var(--radius-s);
   background-color: transparent;
   border: solid 1px var(--color-brand-5);
@@ -110,6 +111,11 @@
   cursor: pointer;
 
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #dialogBox::backdrop {

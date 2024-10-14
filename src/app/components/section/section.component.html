@@ -1,9 +1,9 @@
-@if(section){
 <section class="section">
+  @if(section){
   <header class="section__header">
     <p class="section__subtitle">{{ section.title }}</p>
     <h1 class="section__title">{{ section.subtitle }}</h1>
   </header>
+  }
   <ng-content />
 </section>
-}

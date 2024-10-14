@@ -7,6 +7,7 @@ import {
   TechStackComponent,
 } from './components';
 import { Article, ArticleComponent } from '../../components';
+import { SectionComponent } from '../../components/section/section.component';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,8 @@ import { Article, ArticleComponent } from '../../components';
     KnowledgeComponent,
     TechStackComponent,
     ProjectsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SectionComponent,
   ],
 })
 export class HomeComponent {

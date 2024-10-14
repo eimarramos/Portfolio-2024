@@ -29,7 +29,9 @@ export class ProjectCardComponent {
     const buttonClicked = event.target as HTMLButtonElement;
     const dialog = buttonClicked.parentElement
       ?.parentElement as HTMLDialogElement;
+    const slider = document.querySelector('.slider') as HTMLDivElement;
 
+    slider.scrollLeft = 0;
     dialog.close();
   }
 }

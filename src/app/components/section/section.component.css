@@ -9,7 +9,7 @@
 
   animation: reveal both;
   animation-timeline: view();
-  animation-range: entry 40% cover 50%;
+  animation-range: entry 20% cover 30%;
 }
 
 .section__subtitle {

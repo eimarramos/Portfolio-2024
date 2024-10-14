@@ -118,11 +118,11 @@
   flex-direction: row-reverse;
 }
 
-#dialogBox::backdrop {
+.dialogBox::backdrop {
   background-color: rgba(0, 0, 0, 0.647);
 }
 
-#dialogBox {
+.dialogBox {
   margin: auto;
   padding: 1em;
   border-radius: var(--radius-xs);
@@ -131,6 +131,17 @@
   line-height: var(--text-line-height);
   border: none;
   background-color: transparent;
+
+  transition: scale 0.3s ease, display 0.3s allow-discrete;
+  scale: 0;
+
+  &[open] {
+    scale: 1;
+
+    @starting-style {
+      scale: 0;
+    }
+  }
 }
 
 .button_container {

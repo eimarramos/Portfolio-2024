@@ -16,7 +16,7 @@
   align-content: center;
   overflow: hidden;
   overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x proximity;
 }
 
 .slider__image {

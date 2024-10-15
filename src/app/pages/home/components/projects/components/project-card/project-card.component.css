@@ -106,11 +106,18 @@
   border: solid 1px var(--color-brand-5);
   color: var(--color-brand-2);
   font-weight: 700;
+  font-size: var(--text-size-small);
   padding: 0.6em 0.6em;
   margin-top: auto;
   cursor: pointer;
 
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.article__button:hover {
+  background-color: var(--bg-100);
+  color: var(--color-brand-0);
+  border-color: var(--color-brand-4);
 }
 
 .buttons-container {
@@ -160,12 +167,6 @@
   cursor: pointer;
 
   transition: background-color 0.2s ease-in-out;
-}
-
-.article__button:hover {
-  background-color: var(--bg-100);
-  color: var(--color-brand-0);
-  border-color: var(--color-brand-4);
 }
 
 @media (max-width: 992px) {

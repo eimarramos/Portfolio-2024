@@ -28,7 +28,9 @@ export class HomeComponent {
   aboutMe: Article = {
     title: 'SOBRE MÍ',
     subtitle: 'Introducción',
-    content: `Me llamo Eimar y mi interés por el desarrollo de software y la tecnología en general siempre ha
-              estado presente, pero hace 4 años tomé la decisión de dedicarme completamente a ello. Desde entonces he estado disfrutando aprendiendo y estudiando constantemente.`,
+    content: `Estoy graduado como Técnico Superior en Desarrollo de Aplicaciones Multiplataforma. Actualmente, 
+              estoy ampliando mis estudios y trabajando en proyectos personales para desarrollar habilidades prácticas y 
+              explorar nuevas áreas, especialmente en desarrollo móvil y web. Disfruto aprendiendo nuevas tecnologías, 
+              resolviendo desafíos y mejorando continuamente como desarrollador.`,
   };
 }

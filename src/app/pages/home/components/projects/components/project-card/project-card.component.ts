@@ -32,9 +32,12 @@ export class ProjectCardComponent implements OnInit {
     const buttonClicked = event.target as HTMLButtonElement;
     const dialog = buttonClicked.parentElement
       ?.parentElement as HTMLDialogElement;
-    const slider = document.querySelector('.slider') as HTMLDivElement;
+    const sliders = document.getElementsByClassName('slider');
 
-    slider.scrollLeft = 0;
+    for (let i = 0; i < sliders.length; i++) {
+      sliders[i].scrollLeft = 0;
+    }
+
     dialog.close();
   }
 }

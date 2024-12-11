@@ -5,5 +5,5 @@ export type Project = {
   technologies: string[];
 
   images: string[];
-  description: string;
+  description: string[];
 };

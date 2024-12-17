@@ -61,6 +61,7 @@ export class ProjectsComponent {
         'Desarrollé una aplicación móvil con MAUI, aplicando la arquitectura hexagonal para garantizar modularidad, mantenibilidad y separación de responsabilidades. El proyecto me permitió profundizar en C# y el ecosistema .NET, explorando buenas prácticas como principios SOLID y inyección de dependencias.',
         'La app incluye una interfaz adaptable multiplataforma (Android/iOS), integración con APIs REST, persistencia de datos con SQLite, y gestión del estado con MVVM. También aproveché las novedades de .NET 9, como mejoras en rendimiento y nuevas características del lenguaje. Este proyecto fue clave para afianzar mis conocimientos en desarrollo profesional y tecnologías modernas.',
       ],
+      githubUrl: 'https://github.com/eimarramos/Doppio',
     },
   ];
 }

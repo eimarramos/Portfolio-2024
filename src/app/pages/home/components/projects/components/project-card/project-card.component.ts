@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Project } from '../../types';
-import { Card, CardComponent } from '../../../../../../components';
+import { Card, CardComponent, GithubIconComponent } from '@/components';
 
 @Component({
   selector: 'app-project-card',
@@ -12,10 +12,10 @@ import { Card, CardComponent } from '../../../../../../components';
 export class ProjectCardComponent implements OnInit {
   @Input() project!: Project;
 
-  project1?: Card;
+  projectCard?: Card;
 
   ngOnInit(): void {
-    this.project1 = {
+    this.projectCard = {
       title: this.project.title,
       subtitle: this.project.summary,
     };
@@ -23,7 +23,8 @@ export class ProjectCardComponent implements OnInit {
 
   openModal(event: MouseEvent) {
     const buttonClicked = event.target as HTMLButtonElement;
-    const dialog = buttonClicked.previousSibling as HTMLDialogElement;
+    const dialog = buttonClicked.parentElement
+      ?.previousSibling as HTMLDialogElement;
 
     dialog.showModal();
   }

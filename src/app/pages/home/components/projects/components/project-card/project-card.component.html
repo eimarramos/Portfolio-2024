@@ -30,7 +30,7 @@
         />
         }
       </div>
-      <app-card class="card" [card]="project1">
+      <app-card class="card" [card]="projectCard">
         @for (paragraph of project.description; track $index) {
         <p>{{ paragraph }}</p>
         <br />
@@ -38,8 +38,15 @@
       </app-card>
     </article>
   </dialog>
-  <button class="article__button" (click)="openModal($event)">
-    Mostrar detalles
-  </button>
+  <div class="article__buttons-container">
+    <button class="article__button" (click)="openModal($event)">
+      Mostrar detalles
+    </button>
+    @if(project.githubUrl){
+    <a class="article__link" href="{{ project.githubUrl }}" target="_blank">
+      GitHub
+    </a>
+    }
+  </div>
 </article>
 }

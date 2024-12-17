@@ -44,7 +44,7 @@ export class ProjectsComponent {
       picture: './assets/images/InicioDoppio.png',
       title: 'Doppio',
       summary:
-        'Desarrolle una applicación movil hecho en MAUI aplicando arquitectura hexagonal y aplicando buenas practicas para afianzar mis conocimientos en c#, .NET y probar las novedades de .NET 9.',
+        'Desarrolle una applicación movil hecho en MAUI aplicando arquitectura hexagonal y aplicando buenas practicas para afianzar mis conocimientos en C#, .NET y probar las novedades de .NET 9.',
       technologies: [
         'C#',
         'MAUI',

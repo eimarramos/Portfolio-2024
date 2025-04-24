@@ -56,6 +56,11 @@ export class ProjectsComponent {
       images: [
         'assets/images/DoppioImagen1.png',
         'assets/images/DoppioImagen2.png',
+        'assets/images/DoppioImagen3.png',
+        'assets/images/DoppioImagen4.png',
+        'assets/images/DoppioImagen5.png',
+        'assets/images/DoppioImagen6.png',
+        'assets/images/DoppioImagen7.png',
       ],
       description: [
         'Desarrollé una aplicación móvil con MAUI, aplicando la arquitectura hexagonal para garantizar modularidad, mantenibilidad y separación de responsabilidades. El proyecto me permitió profundizar en C# y el ecosistema .NET, explorando buenas prácticas como principios SOLID y inyección de dependencias.',

@@ -15,10 +15,10 @@
     </div>
     }
   </div>
-  <dialog class="dialogBox">
-    <div class="button_container">
+  <dialog class="dialogBox" closedby="any">
+    <form method="dialog">
       <button class="project__close" (click)="closeModal($event)">x</button>
-    </div>
+    </form>
     <article class="project">
       <div class="slider">
         @for (image of project.images; track $index) {

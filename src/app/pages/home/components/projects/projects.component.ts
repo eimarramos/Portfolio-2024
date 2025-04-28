@@ -23,7 +23,7 @@ export class ProjectsComponent {
       title: 'Facturas de peritajes',
       summary:
         'Desarrollé una solución para Lodisna con una app móvil en Xamarin, una web en Angular y un backend en ASP.NET Core para gestionar peritajes.',
-      technologies: ['Angular', 'Typescript', 'C#', 'Xamarin', 'ASP.NET Core'],
+      technologies: ['Angular', 'Typescript', 'C#', 'Xamarin', 'ASP.NET Core', 'Entity Framework', '.NET 8', 'Xamarin'],
       images: [
         'assets/images/PeritajesWeb1.png',
         'assets/images/PeritajesWeb2.png',
@@ -50,7 +50,7 @@ export class ProjectsComponent {
         'MAUI',
         'XAML',
         '.NET 9',
-        'EntityFramework',
+        'Entity Framework',
         'SQLite',
       ],
       images: [
